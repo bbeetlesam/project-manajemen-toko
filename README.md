@@ -36,23 +36,41 @@ Untuk menjalankan program **Manajemen Toko** ini, dibutuhkan **compiler C++** se
 (kecuali menggunakan _**IDE**_, seperti _CLion_ atau _Code::Blocks_). Lalu, pastikan bahwa compiler tersebut telah ditambahkan dalam _Environment Variables_.\
 Apabila compiler telah terinstall, ketik command:
 
-#### MinGW:
+### MinGW:
 
-`g++ manajemen-toko.cpp -o manajemen-toko.exe` lalu `.\manajemen-toko`, atau\
-`g++ manajemen-toko.cpp -o manajemen-toko.exe ; if ($?) { .\manajemen-toko }`
+```bash
+g++ manajemen-toko.cpp -o manajemen-toko.exe
+.\manajemen-toko
+```
 
-#### CLang
+atau
 
-`clang++ manajemen-toko.cpp -o manajemen-toko.exe` lalu `.\manajemen-toko`, atau\
-`clang++ manajemen-toko.cpp -o manajemen-toko.exe ; if ($?) { .\manajemen-toko }`
+```bash
+g++ manajemen-toko.cpp -o manajemen-toko.exe ; if ($?) { .\manajemen-toko }
+```
+
+### CLang
+
+```bash
+clang++ manajemen-toko.cpp -o manajemen-toko.exe
+.\manajemen-toko
+```
+
+atau
+
+```bash
+clang++ manajemen-toko.cpp -o manajemen-toko.exe ; if ($?) { .\manajemen-toko }
+```
 
 Dalam _code-editor_ **VSCode**, cukup tekan `Run Code` atau shortcut `Ctrl`+`Alt`+`N` untuk menjalankan program (dengan syarat compiler telah terinstall).
 
 ## About
 
-Program ini dibuat oleh `4` orang, termasuk pemilik repo ini.\
-That's it. I don't have anything to be texted again, I'm fvkg dried.
+Program ini dibuat oleh `4` orang, termasuk pemilik repo ini.
 
-Thanks for reading this useless README, try to take a tour on my GitHub profile (you'll be wasting your time).
+That's it. I don't have anything to be texted again, I'm fvkg tired.\
+Gonna light up a cig real quick
+
+Thanks for reading this useless README, try to take a tour on my [GitHub](https://github.com/bbeetlesam) profile (you'll be wasting your time).
 
 Sincerely, Sam.
